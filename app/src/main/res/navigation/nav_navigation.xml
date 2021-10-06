@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_navigation"
+    app:startDestination="@id/registerFragment">
+
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.sahuayo.productos.Registro.RegisterFragment"
+        android:label="@string/nuevoProducto"
+        tools:layout="@layout/fragment_register" />
+    <fragment
+        android:id="@+id/deleteFragment"
+        android:name="com.sahuayo.productos.Delete.deleteFragment"
+        android:label="@string/eliminarProducto" />
+    <fragment
+        android:id="@+id/updateFragment"
+        android:name="com.sahuayo.productos.Update.UpdateFragment"
+        android:label="@string/updateProducto" />
+</navigation>

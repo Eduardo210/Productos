@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Productos</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nuevoProducto">Agregar Producto</string>
+    <string name="updateProducto">Actualizar Producto</string>
+    <string name="eliminarProducto">Eliminar Producto</string>
+
+    <string name="clavep">Clave producto</string>
+    <string name="descrip">Nombre del producto</string>
+    <string name="estado">Estado del producto</string>
+
+    <string name="clave">Ingresa la clave del producto</string>
+    <string name="descri">Ingresa el nombre del producto</string>
+    <string name="esta">Selecciona el estado del producto</string>
+
+    <string name="activo">Activo</string>
+    <string name="agotado">Sin existencia</string>
+
+    <string name="guardar">Guardar</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="eliminarlogico">Eliminar logíco</string>
+    <string name="eliminar">Borrar</string>
+    <string name="buscarcodigo">Buscar por código</string>
+    <string name="buscarnombre">Buscar por nombre</string>
+
+    <string-array name="estados">
+        <item>Seleccione</item>
+        <item>@string/activo</item>
+        <item>@string/agotado</item>
+    </string-array>
+</resources>
